@@ -1,8 +1,18 @@
+import TaskList from "./components/taskList";
+
 function App() {
   return (
     <>
-      <div className="App">asdasdsad</div>
-      <style jsx>{``}</style>
+      <TaskList />
+      <style jsx global>{`
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      `}</style>
     </>
   );
 }
